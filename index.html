@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Animais</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <h1 class="centralizado">
+    <i class="fas fa-paw"></i>
+    Cadastro de Pets
+    <i class="fas fa-paw"></i>
+  </h1>
+  
+  <form id="petForm">
+    <label for="nome">Nome do Animal:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="tipo">Tipo (ex: cachorro, gato):</label>
+    <input type="text" id="tipo" name="tipo" required>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade" required>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Lista de Animais</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Tipo</th>
+        <th>Idade</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="petTableBody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
