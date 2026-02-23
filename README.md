@@ -13,7 +13,7 @@
 
 ## Público-Alvo
 
-* Ideal para proprietários de animais, abrigos, Ongs ou lojas de animais
+* Ideal para proprietários/cuidadores de animais, abrigos, Ongs ou PetShops
 
 ## Uso
 
