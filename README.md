@@ -1,29 +1,23 @@
-# Cadastro de Pets
+# 🐾 Cadastro de Pets - CRUD LocalStorage
 
-* Propósito: este projeto é uma aplicação interativa para gerenciar e cadastrar animais de estimação em uma tabela / lista.
-* Motivação: facilitar o gerenciamento de informações sobre os animais de estimação de maneira simples e intuitiva.
+Aplicação web simples e intuitiva para gerenciamento de pets, focada em manipulação de DOM e persistência de dados no navegador.
 
-## Funcionalidades
+## 🚀 Tecnologias
+- HTML5 (Estrutura semântica)
+- CSS3 (Design responsivo e Google Fonts)
+- JavaScript Vanilla (Lógica e Manipulação de DOM)
+- LocalStorage (Persistência de dados)
+- Font Awesome (Ícones)
 
-- Cadastro de animais (com validação de formulário avançada)
-- Edição e exclusão de registros
-- Persistência de dados com LocalStorage
-- Design moderno e responsivo
-- Uso de ícones
+## ✨ Funcionalidades
+- **Cadastro:** Adicione nome, tipo e idade do animal.
+- **Listagem:** Visualização em tempo real em tabela organizada.
+- **Edição:** Recuperação de dados para alteração rápida.
+- **Exclusão:** Remoção de registros com atualização instantânea da interface.
+- **Persistência:** Os dados permanecem salvos mesmo após fechar o navegador.
 
-## Público-Alvo
-
-* Ideal para proprietários/cuidadores de animais, abrigos, Ongs ou PetShops
-
-## Uso
-
-* Os usuários podem registrar o nome, tipo e idade do animal, e visualizar os dados organizados em uma tabela dinâmica e interativa.
-
-## Tecnologias Usadas
-
-- HTML
-- CSS
-- JavaScript
+## 📱 Responsividade
+O projeto foi desenvolvido com foco em Mobile-First, garantindo uma boa experiência em celulares, tablets e desktops.
 
 ## Licença
 
